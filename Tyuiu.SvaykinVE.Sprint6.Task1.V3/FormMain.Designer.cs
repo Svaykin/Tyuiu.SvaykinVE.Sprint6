@@ -51,7 +51,7 @@
             textBoxTask_SV.Size = new Size(505, 254);
             textBoxTask_SV.TabIndex = 0;
             textBoxTask_SV.Text = "Написать программу, которая выводит таблицу значений функции \r\n1+sin(x) (x) = 5 - 3x + 2x-0.5 произвести табулирование) f(x) на заданном диапазоне\r\n[-5; 5]";
-            textBoxTask_SV.TextChanged += this.textBoxTask_SV_TextChanged;
+            textBoxTask_SV.TextChanged += textBoxTask_SV_TextChanged;
             // 
             // groupBoxInput_SV
             // 
