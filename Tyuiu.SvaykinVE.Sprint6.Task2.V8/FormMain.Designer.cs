@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             groupBoxTask_SV = new GroupBox();
             textBoxTask_SV = new TextBox();
             buttonInfo_SV = new Button();
@@ -99,17 +99,17 @@
             // 
             // chart_SV
             // 
-            chartArea1.Name = "ChartArea1";
-            chart_SV.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            chart_SV.Legends.Add(legend1);
+            chartArea2.Name = "ChartArea1";
+            chart_SV.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            chart_SV.Legends.Add(legend2);
             chart_SV.Location = new Point(126, 22);
             chart_SV.Name = "chart_SV";
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            chart_SV.Series.Add(series1);
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            chart_SV.Series.Add(series2);
             chart_SV.Size = new Size(315, 187);
             chart_SV.TabIndex = 4;
             chart_SV.Click += chart_SV_Click;
