@@ -69,7 +69,7 @@ namespace Tyuiu.SvaykinVE.Sprint6.Task4.V21
             }
             catch
             {
-                MessageBox.Show("Введены неверные данные", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Введены неверные данные", "Ошиба", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private void buttonInfo_SV_Click(object sender, EventArgs e)
